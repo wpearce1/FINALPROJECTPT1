@@ -1,0 +1,12 @@
+The goal of my project is to determine if a subset of economic and technical trading data are useful predictors of future stock market returns and if a model can be built using machine learning to better make investment decisions.
+
+Null Hypothesis: Returns of the S&P 500 stock index are a random walk and not influenced by economic or technical data.
+
+Alternate Hypothesis: Returns of the S&P 500 stock index are influenced by economic or technical data.
+
+Goals: to determine if a subset of economic or technical trading data have predictive power in explaining returns of the S&P 500 stock index. I will use a subset of data points such as GDP, Commercial Paper Outstanding, Initial Jobless Claims, Inflation and Producer Price Index for Iron and Steel.
+
+Dataset: FRED Economic Database – fred.stlouisfed.org – I have a custom Python API to access and pull data from this database. I also have access to Bloomberg Terminal data to supplement.
+
+Risks and Limitations: While I have an extensive finance and trading background I lack Python skills. I will need assistance matching daily SP500 returns with daily/weekly/monthly data points.
+
